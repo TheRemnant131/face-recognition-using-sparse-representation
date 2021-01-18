@@ -1,6 +1,6 @@
 %% Partitions the data into training, testing data based on p-values(Splits)
 
-function[train,test,labeltr,labelte]=DataPartition(features,labels,p)
+function [train,test,labeltr,labelte]=DataPartition(features,labels,p)
 train=[];test=[];labelte=[];labeltr=[];
 
 if nargin<3
